@@ -7,7 +7,7 @@ Problem{x}/Solution.cs
 
 Where {x} is the problem number in LeetCode, left padded with 0s to be 4 characters long.
 
-# Class Structure:
+# Class Structure
 Under Namespace - LeetCode.Lib.Solution{x}
 Class Name - Solution
 Solution Method Name - Use same method name and signature from LeetCode.  Helper methods can use whatever names you want.

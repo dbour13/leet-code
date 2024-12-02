@@ -7,7 +7,7 @@ namespace LeetCode.Test.Problem0001
         [Fact]
         public void Test1()
         {
-            int[] result = Lib.Problem0001.Solution.TwoSum([2, 7, 11, 15], 9);
+            int[] result = new Lib.Problem0001.Solution().TwoSum([2, 7, 11, 15], 9);
 
             Assert.Equal([0, 1], result);
         }
@@ -15,7 +15,7 @@ namespace LeetCode.Test.Problem0001
         [Fact]
         public void Test2()
         {
-            int[] result = Lib.Problem0001.Solution.TwoSum([3, 2, 4], 6);
+            int[] result = new Lib.Problem0001.Solution().TwoSum([3, 2, 4], 6);
 
             Assert.Equal([1, 2], result);
         }
@@ -23,7 +23,7 @@ namespace LeetCode.Test.Problem0001
         [Fact]
         public void Test3()
         {
-            int[] result = Lib.Problem0001.Solution.TwoSum([3, 3], 6);
+            int[] result = new Lib.Problem0001.Solution().TwoSum([3, 3], 6);
 
             Assert.Equal([0, 1], result);
         }
@@ -33,7 +33,7 @@ namespace LeetCode.Test.Problem0001
         {
             Assert.Throws<NoSolutionException>(() =>
             {
-                _ = Lib.Problem0001.Solution.TwoSum([3, 3], 7);
+                _ = new Lib.Problem0001.Solution().TwoSum([3, 3], 7);
             });
         }
     }
