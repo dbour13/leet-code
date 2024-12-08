@@ -82,7 +82,7 @@ namespace LeetCode.Lib.Problem0003
         public int LengthOfLongestSubstring(string s)
         {
             int returnValue = 0;
-            // Holds the right most value a character has appeared
+            // Holds the right most position a character has appeared
             // as we go through the string
             int[] ascii = new int[128];
 

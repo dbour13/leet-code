@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Lib.Problem0002
+﻿using LeetCode.Lib.Common;
+
+namespace LeetCode.Lib.Problem0002
 {
     /// <summary>
     /// Level: Medium

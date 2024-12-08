@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Lib
+namespace LeetCode.Lib.Common
 {
     public class NoSolutionException : Exception
     {

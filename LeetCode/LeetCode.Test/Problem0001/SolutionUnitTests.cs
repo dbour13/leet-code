@@ -1,4 +1,4 @@
-using LeetCode.Lib;
+using LeetCode.Lib.Common;
 
 namespace LeetCode.Test.Problem0001
 {
