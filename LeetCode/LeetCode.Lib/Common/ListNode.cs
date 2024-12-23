@@ -16,6 +16,7 @@
         public static ListNode Create(params int[] vals)
         {
             ListNode returnValue = new ListNode();
+            ListNode head = returnValue;
 
             foreach (var v in vals)
             {
@@ -24,7 +25,7 @@
                 returnValue.val = v;
             }
 
-            return returnValue.next;
+            return head.next;
         }
     }
 }
